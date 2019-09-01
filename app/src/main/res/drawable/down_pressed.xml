@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/bg_drop_row_dark"/>
+            <size android:width="96dp"/>
+            <corners android:bottomRightRadius="4dp"
+                android:bottomLeftRadius="4dp"/>
+
+        </shape>
+    </item>
+
+    <item >
+        <bitmap android:src="@drawable/ic_arrow_drop_down" android:tint="@color/bg_drop_complete" android:gravity="center"/>
+    </item>
+
+</layer-list>

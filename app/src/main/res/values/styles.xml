@@ -1,0 +1,34 @@
+<resources>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+ <style name="Theme.AppCompat.Dialog">
+     <item name="android:layout_width">match_parent</item>
+     <item name="android:layout_height">match_parent</item>
+     <item name="android:windowBackground">@android:color/transparent</item>
+     <item name="windowNoTitle">true</item>
+     <item name="android:windowIsFloating">false</item>
+ </style>
+    
+    <style name="ToolbarStyle" parent="Theme.AppCompat.Light">
+        <item name="android:colorBackground">@color/btn_border_purple</item>
+        <item name="android:textColor">@color/dark_blue</item>
+    </style>
+
+    <style name="DatePickerItemStyle">
+        <item name="android:layout_width">92dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:background">@drawable/bg_picker_item_background</item>
+        <item name="android:textColor">@color/bg_drop_complete</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+
+</resources>

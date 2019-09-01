@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <io.designcoder.bucketdrops5.widgets.BucketRecyclerView
+        android:id="@+id/rv_drops"
+        android:layout_below="@+id/toolbar"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="see Data"-->
+        <!--android:textSize="30sp"-->
+        <!--android:onClick="getRealmData"-->
+        <!--android:layout_alignParentBottom="true"/>-->
+
+    <include
+        android:id="@+id/empty_drops"
+        layout="@layout/empty_drops" />
+
+</RelativeLayout>
